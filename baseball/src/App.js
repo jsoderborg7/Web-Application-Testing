@@ -51,12 +51,13 @@ function App() {
   
 
   return(
-    <div>
+    <div className="appContainer">
       <h1>Player Stats</h1>
       <Display
         strikes={strikes}
         balls={balls} 
       />
+      <h3>Control Panel</h3>
       <Dashboard
         addBall={addBall}
         addStrike={addStrike}
