@@ -6,7 +6,7 @@
 .display h2{
   font-size: 3rem;
   border: 2px solid black;
-  padding: 5%;
+  padding: 3%;
   background-color: #abe5e9;
   border-radius: 10px;
 }
@@ -14,6 +14,7 @@
 .buttons{
   display: flex;
   justify-content: center;
+  padding: 1%;
 }
 
 .buttons button{
@@ -33,15 +34,16 @@
   width: 60%;
   margin: auto;
   border: 2px solid black;
-  padding: 2%;
   background-color: #eaf8f9;
+  opacity: .9;
   border-radius: 10px;
 }
 
 .appContainer h1{
-  font-size: 5rem;
+  font-size: 4.5rem;
   text-align: center;
   text-decoration: underline;
+  margin-top: 0;
 }
 
 .appContainer h3{
