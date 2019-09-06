@@ -3,6 +3,16 @@ import './App.css';
 import Dashboard from './components/Dashboard';
 import Display from './components/Display';
 
+// these are here for math testing
+export const ballTest = currentScore =>{
+  return currentScore + 1;
+};
+
+export const strikeTest = currentScore =>{
+  return currentScore + 1;
+}
+
+
 
 function App() {
   const [balls, setBalls] = useState(0);

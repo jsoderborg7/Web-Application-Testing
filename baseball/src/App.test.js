@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import App, {addBall} from './App';
+import App, {ballTest, strikeTest} from './App';
 
 // it('renders without crashing', () => {
 //   const div = document.createElement('div');
@@ -14,5 +14,15 @@ test('App renders without crashing', () => {
 
 test("contains ball button", () => {
   const myDoc = render(<App />)
-  myDoc.getByText(/ball/i);
+  myDoc.getAllByText(/ball/i);
 })
+
+test('ballTest works', () =>{
+  expect(ballTest(0)).toBe(1);
+});
+
+test('strikeTest works', () =>{
+  expect(strikeTest(1)).toBe(2);
+});
+
+
